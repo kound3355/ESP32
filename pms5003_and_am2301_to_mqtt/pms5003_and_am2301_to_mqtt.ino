@@ -4,11 +4,11 @@
 #include <PMS.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "ck_iot";
-const char* password = "ck@12345678";
-const char* mqtt_server = "192.168.1.14";
-const char* mqtt_username = "esp01";
-const char* mqtt_password = "12345";
+const char* ssid = "";
+const char* password = "";
+const char* mqtt_server = "";
+const char* mqtt_username = "";
+const char* mqtt_password = "";
 const char* sensor_topic = "sensors/data";
 
 #define DHT_PIN 26  // GPIO pin connected to the DHT sensor
